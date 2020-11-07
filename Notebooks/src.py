@@ -36,7 +36,9 @@ def avg_size() #might wanna use it later, also good practice to get this as a me
     
     for filename in filenames:
     #ooh I made an error with this part, I reset the lists every time, this is why I got such clean numbers for the avg's
-
+    
+    data_path = '../Data/train'#will expand this later
+    
         img_path = os.path.join(data_path, filename)
         im = Image.open(img_path)
     
