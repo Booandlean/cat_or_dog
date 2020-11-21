@@ -17,3 +17,19 @@
           *
 ###     src
        *Contains .py file with helper methods*
+###     README.md
+       *you are here*
+
+## Goal:
+
+
+## About the data
+
+
+## How do I use this?
+
+
+## Results
+
+
+## Next Steps
