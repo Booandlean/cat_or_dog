@@ -29,29 +29,13 @@ def data_prep():
     
     return df
 
-# def avg_size() #might wanna use it later, also good practice to get this as a method
-
-#     width = []#these guys should have been here
-#     height = [] 
-    
-#     for filename in filenames:
-#     #ooh I made an error with this part, I reset the lists every time, this is why I got such clean numbers for the avg's
-    
-#     data_path = '../Data/train'#will expand this later
-    
-#         img_path = os.path.join(data_path, filename)
-#         im = Image.open(img_path)
-    
-#         w, h = im.size
-    
-#         width.append(w)
-#         height.append(h)
-    
-#     w_avg = sum(width)/len(width)
-#     h_avg = sum(height)/len(height)
-    
-#     width = int(w_avg)
-#     height = int(h_avg)
-#     img_size = (width, height)
-    
-#     return img_size
+def vis_history(history): 
+    fig, ax = plt.subplots(1, 2, figsize=(15,5))
+    ax[0].set_title('loss')
+    ax[0].plot(history.epoch, history.history["loss"], label="Train loss")
+    ax[0].plot(history.epoch, history.history["val_loss"], label="Validation loss")
+    ax[1].set_title('acc')
+    ax[1].plot(history.epoch, history.history["acc"], label="Train acc")
+    ax[1].plot(history.epoch, history.history["val_acc"], label="Validation acc")
+    ax[0].legend()
+    ax[1].legend()
