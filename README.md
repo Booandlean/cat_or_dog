@@ -16,7 +16,7 @@
     
 --- [Modeling.ipynb](https://github.com/Booandlean/cat_or_dog/blob/master/Notebooks/Modeling.ipynb)
 
-    *contains all models (minus the fsm) and discussion of modeling*
+    *Contains all models (minus the fsm) and discussion of modeling*
 
 --- [src.py](https://github.com/Booandlean/cat_or_dog/blob/master/Notebooks/src.py)
 
