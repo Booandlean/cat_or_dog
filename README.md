@@ -47,5 +47,8 @@ There are 25,000 images total evenly split between cats(0) and dogs(1).
 
 ## Results
 
+While delta did perform better than alpha in terms of accuracy score (.89 vs .83), what cannot be ignored is that delta labeled signifigantly more images as 'cat' or 0 and is therefor biased towards that class, while 'dog' or 1 was under represented. Alpha may have a lower accuracy score, but it does not show any signifigant evidence of bias, which is why I am choosing it as the final model. 
 
 ## Next Steps
+
+You may notice while looking through 'Modeling' and 'Final_Notebook' that there is no evidence of a test set being used. As this is a kaggle competition there was a test set but the images were not labeled. In the future I will grab 100-200 images from the unlabeled test set and manualy label them cat or dog to get a score out of 100-200 on its test accuracy to produce a proper accuracy score. 
