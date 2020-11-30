@@ -32,6 +32,10 @@
 
 *you are here :)*
 
+[cat_n_dog.yml](https://github.com/Booandlean/cat_or_dog/blob/master/cat_n_dog.yml)
+
+*the environment file*
+
 ## Goal:
 
 This project aims to make a image classification model that can determine if an image contains a cat or a dog.
