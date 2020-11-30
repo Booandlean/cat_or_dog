@@ -44,6 +44,23 @@ There are 25,000 images total evenly split between cats(0) and dogs(1).
 
 ## How do I use this?
 
+Before you use jupyer notebook to look at the .ipynb notebooks the environment needs to be set up. Open your terminal and navigate to the folder which contains telco.yml. Run:
+
+'conda env create -f cat_n_dog.yml' 
+
+Then run: 
+
+'conda activate cat_n_dog'
+
+to activate the environment. If you do not have pykernel installed, run: 
+
+'pip install --user ipykernel' 
+
+in the terminal. Once this is done, run: 
+
+'python -m ipykernel install --user --name=cat_n_dog' 
+
+Upon opening jupyer notebook, go to the 'new' button with the down arrow. You should see 'telco' under the 'notebook' tab. Once you click 'cat_n_dog' the environment will be set up, and you can now run the code within the notebooks. 
 
 ## Results
 
