@@ -6,21 +6,21 @@
 
 *Contains .ipynb notebooks and src file with helper methods*
 
---- [Data_prep_plus_FSM.ipynb](https://github.com/Booandlean/cat_or_dog/blob/master/Notebooks/Data_prep_plus_FSM.ipynb)
+--- [Data_prep_plus_FSM.ipynb](https://github.com/Booandlean/cat_or_dog/blob/master/Notebooks/Data_prep_plus_FSM.ipynb)\
     
-    *Contains organization of data, EDA, and the FSM*
+    Contains organization of data, EDA, and the FSM
 
 --- [Final_Notebook.ipynb](https://github.com/Booandlean/cat_or_dog/blob/master/Notebooks/Final_Notebook.ipynb)
 
-    *Contains discussion of data, modeling process, and results*
+    Contains discussion of data, modeling process, and results
     
 --- [Modeling.ipynb](https://github.com/Booandlean/cat_or_dog/blob/master/Notebooks/Modeling.ipynb)
 
-    *Contains all models (minus the fsm) and discussion of modeling*
+    Contains all models (minus the fsm) and discussion of modeling
 
 --- [src.py](https://github.com/Booandlean/cat_or_dog/blob/master/Notebooks/src.py)
 
-    *Contains helper methods used in project*
+    Contains helper methods used in project
 
 [Visualizations](https://github.com/Booandlean/cat_or_dog/tree/master/Visualizations)
 
