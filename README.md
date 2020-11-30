@@ -20,6 +20,8 @@
 
 --- [src.py](https://github.com/Booandlean/cat_or_dog/blob/master/Notebooks/src.py)
 
+    *Contains helper methods used in project*
+
 [Visualizations](https://github.com/Booandlean/cat_or_dog/tree/master/Visualizations)
 
 *Contains image files used in final notebook*
